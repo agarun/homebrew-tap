@@ -1,13 +1,18 @@
 # agarun/homebrew-tap
 
+Homebrew formulas for tools by agarun.
+
+## Install
+
 ```sh
-brew tap agarun/tap
-brew install rex-workspaces
+brew install agarun/tap/rex-workspaces
+rex-workspaces install
 ```
 
-| Formula | What it is |
-| --- | --- |
-| [rex-workspaces](https://github.com/agarun/rex-workspaces) | Start, stop and restart project workspaces in Rex. Run `rex-workspaces install` after installing. |
+## Formulas
 
-Each formula is written by its project's release workflow; edit the source project, not the
-files here.
+| Formula | Description |
+| --- | --- |
+| [rex-workspaces](https://github.com/agarun/rex-workspaces) | Start, stop and restart project workspaces in Rex |
+
+The release workflow in each project updates its formula here.
