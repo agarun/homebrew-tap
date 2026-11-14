@@ -1,27 +1,27 @@
 class RexWorkspaces < Formula
   desc "Start, stop and restart project workspaces in Rex"
   homepage "https://github.com/agarun/rex-workspaces"
-  version "0.1.0"
+  version "0.2.0"
 
   base = "https://github.com/agarun/rex-workspaces/releases/download/v#{version}"
   on_macos do
     on_arm do
       url "#{base}/rex-workspaces-aarch64-apple-darwin.tar.gz"
-      sha256 "029c0cfac3e99c898847ac932eb6406e7dc7cd7769ab94ce409fee31a7889872"
+      sha256 "70c05a0f672097527783c3a63bbe1cfbceb12afb4a4e9b1b748669e666da7e01"
     end
     on_intel do
       url "#{base}/rex-workspaces-x86_64-apple-darwin.tar.gz"
-      sha256 "9255648d1f97bd73801381f46c3db490fb1c56a4f1b86b18b6309621e6f82fde"
+      sha256 "6f0baf15c6334cb4f3a2138b1ebcd1df6bf39da4d80494e60288d2e63768b640"
     end
   end
   on_linux do
     on_arm do
       url "#{base}/rex-workspaces-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "8ff5362c95c53967697b69876d60a66e0c886a6560c195efcaec312826e25e9c"
+      sha256 "d2b603a30e83302f6f44758638c40217e9663438d67e1c0c4c0fdbc6a78b5d6c"
     end
     on_intel do
       url "#{base}/rex-workspaces-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "71f94e5c9de368407d951115d19e15dae26a124026eba2b03488a09492e7b6bb"
+      sha256 "f0ffb4660bb58a73366a35d1790c050072c3e65df9b3f79482e2875039ddf301"
     end
   end
 
